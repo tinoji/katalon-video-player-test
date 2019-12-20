@@ -2,14 +2,14 @@ version: 2
 jobs:
   chrome_test:
     docker:
-      - image: katalonstudio/katalon
+      - image: katalonstudio/katalon:7.1.2
     working_dir: ~/
     steps:
       - checkout
       - run:
           name: TestSuite01 by Chrome
           command: |
-            katalonc -browserType="Chrome" -retry=0 -statusDelay=15 \
+            katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 \
             -testSuitePath="Test Suites/TestSuite01"
       - store-test_results:
           path: ./report
