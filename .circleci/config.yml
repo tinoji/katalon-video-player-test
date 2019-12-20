@@ -10,7 +10,7 @@ jobs:
           name: TestSuite01 by Chrome
           command: |
             katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 \
-            -testSuitePath="Test Suites/TestSuite01"
+            -testSuitePath="Test Suites/TestSuite01" -apiKey=$KATALON_API_KEY
       - store-test_results:
           path: ./report
       - store-artifacts:
