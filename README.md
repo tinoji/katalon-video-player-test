@@ -1,4 +1,6 @@
 # katalon-video-player-test
+[![CircleCI](https://circleci.com/gh/tinoji/katalon-video-player-test.svg?style=svg)](https://circleci.com/gh/tinoji/katalon-video-player-test)
+
 A sample Katalon Studio project for E2E testing video player.
 
 This project tests:
