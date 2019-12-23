@@ -7,12 +7,12 @@ This project tests:
 1. Stop a video
 1. Verify a video has been played for at least the threshold duration
 
-## Dependencies
+# Usage
+`git clone` and open with Katalon Studio. Run test case/suite by Katalon Studio GUI or command line.
+
+# Dependencies
 - Katalon Studio: v7.2.1
 - Docker image(katalonstudio/katalon): v7.1.2
 - OS: macOS 10.14.6
 - ChromeDriver: 79.0.3945.36
 - Chrome: 79.0.3945.88
-
-# Usage
-`git clone` and open with Katalon Studio. Run test case/suite by Katalon Studio GUI or command line.
