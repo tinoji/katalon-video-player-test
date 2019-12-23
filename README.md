@@ -7,7 +7,9 @@ This project tests:
 1. Stop a video
 1. Verify a video has been played for at least the threshold duration
 
-# Usage
+See [CircleCI config](https://github.com/tinoji/katalon-video-player-test/blob/master/.circleci/config.yml) to execute CI tests.
+
+# Usages
 `git clone` and open with Katalon Studio. Run test case/suite by Katalon Studio GUI or command line.
 
 # Dependencies
